@@ -12,8 +12,8 @@ ADD bin/rabbitmq-start /usr/local/bin/
 
 # Build Env
 ENV DEBIAN_FRONTEND noninteractive 
-ENV http_proxy http://192.168.10.1:8080
-ENV ftp_proxy http://192.168.10.1:8080
+#ENV http_proxy http://192.168.10.1:8080
+#ENV ftp_proxy http://192.168.10.1:8080
 
 # Prod Env
 ENV RABBITMQ_LOG_BASE /data/log
